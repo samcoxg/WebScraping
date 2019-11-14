@@ -1,3 +1,4 @@
+#Created by: Samuel Cox - format taken from Research Article gathering tool written by Samuel Cox, August 2019
 #Import all standard packages for scraping, automation, and excel access and storage
 from openpyxl import Workbook
 from openpyxl import load_workbook
