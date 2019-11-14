@@ -15,11 +15,11 @@ import time
 def webpage_initiate():
     global browser
     browser = webdriver.Chrome(ChromeDriverManager().install())
-    browser.get("http://statwiki.kolobkreations.com/index.php?title=Special:UserLogin&returnto=Special:UnwatchedPages")
+    browser.get("#")
     browser.maximize_window()
     WebDriverWait(browser, 15).until(EC.presence_of_element_located((By.ID, "wpName1")))
-    browser.find_element_by_id("wpName1").send_keys("Samcoxg")
-    browser.find_element_by_id("wpPassword1").send_keys("1240SAM")
+    browser.find_element_by_id("wpName1").send_keys("#")
+    browser.find_element_by_id("wpPassword1").send_keys("#")
     browser.find_element_by_id("wpLoginAttempt").click()
 
 
