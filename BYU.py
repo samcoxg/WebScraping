@@ -98,7 +98,7 @@ def link_destroy():
 #set to zero and end program when while loop ends.        
 myMax = 0       
 while(myMax < 1):
-    #pause, then close the program, 
+    #pause then close the program, 
     time.sleep(3)
     webpage_terminate()
     print("Messate about how page has either failed or ended.)
